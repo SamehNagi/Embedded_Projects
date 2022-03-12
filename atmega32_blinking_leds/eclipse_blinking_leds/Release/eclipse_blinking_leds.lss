@@ -51,16 +51,16 @@ Disassembly of section .text:
   72:	29 e1       	ldi	r18, 0x19	; 25
   74:	30 e0       	ldi	r19, 0x00	; 0
   76:	45 bb       	out	0x15, r20	; 21
-  78:	80 e1       	ldi	r24, 0x10	; 16
-  7a:	97 e2       	ldi	r25, 0x27	; 39
+  78:	88 e8       	ldi	r24, 0x88	; 136
+  7a:	93 e1       	ldi	r25, 0x13	; 19
   7c:	f9 01       	movw	r30, r18
   7e:	31 97       	sbiw	r30, 0x01	; 1
   80:	f1 f7       	brne	.-4      	; 0x7e <main+0x12>
   82:	01 97       	sbiw	r24, 0x01	; 1
   84:	d9 f7       	brne	.-10     	; 0x7c <main+0x10>
   86:	15 ba       	out	0x15, r1	; 21
-  88:	80 e1       	ldi	r24, 0x10	; 16
-  8a:	97 e2       	ldi	r25, 0x27	; 39
+  88:	88 e8       	ldi	r24, 0x88	; 136
+  8a:	93 e1       	ldi	r25, 0x13	; 19
   8c:	f9 01       	movw	r30, r18
   8e:	31 97       	sbiw	r30, 0x01	; 1
   90:	f1 f7       	brne	.-4      	; 0x8e <main+0x22>
